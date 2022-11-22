@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #f2f2f2;
+}
+
+.bg-home{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://localhost:3000/img/1000_F_279216382_VYlXvaoKkszmIsbsRxmBnana3Ocj8SNU.jpg");
+}
+
+a:hover div .btn_items{
+    background-color: theme(colors.primary);
+    color: theme(colors.white);
+}
